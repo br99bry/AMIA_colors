@@ -1,0 +1,47 @@
+@import './vars.scss';
+
+.button-container{
+    width: $button-width;
+    height: $button-height;
+    border-radius: $border-radius-button;
+    //border: $boder-test;
+    position: relative;
+    
+
+}
+
+.button{
+    width: 100%;
+    height: 100%;
+    border-radius: $border-radius-button;
+    background-color: $color-button;
+    outline: none;
+    border: none;
+    font-family: $font-button;
+    font-weight: 700;
+}
+
+.button-decoration{
+    width:  $button-height;
+    height: $button-height;
+    background-color: $color-button-decoration;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    border-radius: $border-radius-button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+.button-decoration-vector{
+    height: 20px;
+}
+
+.button-decoration-charola{
+    width: 25px;
+}
