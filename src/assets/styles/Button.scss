@@ -1,7 +1,7 @@
 @import './vars.scss';
 
 .button-container{
-    width: $button-width;
+    //width: $button-width;
     height: $button-height;
     border-radius: $border-radius-button;
     //border: $boder-test;
@@ -19,6 +19,8 @@
     border: none;
     font-family: $font-button;
     font-weight: 700;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
 }
 
 .button-decoration{
@@ -38,10 +40,5 @@
     
 }
 
-.button-decoration-vector{
-    height: 20px;
-}
 
-.button-decoration-charola{
-    width: 25px;
-}
+
