@@ -11,12 +11,6 @@ import vectorFull from './assets/img/vectorFull.png';
 
 const App = () => (
     //<Button buttonText="Descargar el documento" anchoBoton="345px" />
-    // <About>
-    //     <Button buttonText="ver más" anchoBoton="203px">
-    //         <img src={vectorFull}></img>
-    //     </Button>
-    // </About>
-    // <CardColashCar />
     <div className="App">
         <Header />
         <Hero>
@@ -24,6 +18,15 @@ const App = () => (
                 <img src={vector}></img>
             </ Button>
         </Hero>
+        <About>
+            <Button buttonText="ver más" anchoBoton="203px">
+                <img src={vectorFull}></img>
+            </Button>
+        </About>
+
+        <CardColashCar className="card-colash"/>
+       
+
     </div>
 );
 

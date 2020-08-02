@@ -22,26 +22,30 @@ import fca from '../assets/img/fca.png';
 
 
 const CardColashCard = () => (
-    <div className="colash-container">
-        <div className="colash-logo"><img src={toyota} alt=""/></div>
-        <div className="colash-logo"><img src={ford} alt=""/></div>
-        <div className="colash-logo"><img src={gm} alt=""/></div>
-        <div className="colash-logo"><img src={kia} alt=""/></div>
-        <div className="colash-logo"><img src={bmw} alt=""/></div>
-        <div className="colash-logo"><img src={nissan} alt=""/></div>
-        <div className="colash-logo"><img src={honda} alt=""/></div>
-        <div className="colash-logo"><img src={w} alt=""/></div>
-        <div className="colash-logo"><img src={mazda} alt=""/></div>
-        <div className="colash-logo"><img src={volvo} alt=""/></div>
-        <div className="colash-logo"><img src={pegout} alt=""/></div>
-        <div className="colash-logo"><img src={isuzu} alt=""/></div>
-        <div className="colash-logo"><img src={hundai} alt=""/></div>
-        <div className="colash-logo"><img src={renault} alt=""/></div>
-        <div className="colash-logo"><img src={audi} alt=""/></div>
-        <div className="colash-logo"><img src={mercez} alt=""/></div>
-        <div className="colash-logo"><img src={sizuki} alt=""/></div>
-        <div className="colash-logo"><img src={subaru} alt=""/></div>
-        <div className="colash-logo"><img src={fca} alt=""/></div>
+
+    <div className="colash-container-component">
+        <div className="colash-container">
+            <div className="colash-logo"><img src={toyota} alt=""/></div>
+            <div className="colash-logo"><img src={ford} alt=""/></div>
+            <div className="colash-logo"><img src={gm} alt=""/></div>
+            <div className="colash-logo"><img src={kia} alt=""/></div>
+            <div className="colash-logo"><img src={bmw} alt=""/></div>
+            <div className="colash-logo"><img src={nissan} alt=""/></div>
+            <div className="colash-logo"><img src={honda} alt=""/></div>
+            <div className="colash-logo"><img src={w} alt=""/></div>
+            <div className="colash-logo"><img src={mazda} alt=""/></div>
+            <div className="colash-logo"><img src={volvo} alt=""/></div>
+            <div className="colash-logo"><img src={pegout} alt=""/></div>
+            <div className="colash-logo"><img src={isuzu} alt=""/></div>
+            <div className="colash-logo"><img src={hundai} alt=""/></div>
+            <div className="colash-logo"><img src={renault} alt=""/></div>
+            <div className="colash-logo"><img src={audi} alt=""/></div>
+            <div className="colash-logo"><img src={mercez} alt=""/></div>
+            <div className="colash-logo"><img src={sizuki} alt=""/></div>
+            <div className="colash-logo"><img src={subaru} alt=""/></div>
+            <div className="colash-logo"><img src={fca} alt=""/></div>
+        </div>
+
     </div>
 );
 
