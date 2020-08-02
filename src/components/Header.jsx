@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/styles/Header.scss';
 import logoHeader from '../assets/img/logoHeader.png';
 import rectangleHeader from '../assets/img/rectangleHeader.png';
+import searchIcon from '../assets/img/searchIcon.png';
 
 const link1 = 'Inicio';
 const link2 = 'AMIA';
@@ -38,7 +39,7 @@ const Header = () => {
                             <a className="nav-link" href="">{link5}</a>
                         </li>
                         <li className="nav-opc">
-                            
+                            <img src={searchIcon} alt="" className="search"/>
                         </li>
                     </ul>
                 </div>

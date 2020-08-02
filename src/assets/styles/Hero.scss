@@ -1,0 +1,51 @@
+@import './vars.scss';
+
+.hero-container{
+    //border: $boder-test;
+    width: 100vw;
+    height: 718px;
+    position: relative;
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-description{
+    width: 636px;
+    margin-left: 120px;
+    
+    & h1{
+        font-family: $font-button;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 61px;
+        color: #454545;
+    }
+
+    & p{
+        font-family: $font-button;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        color: #454545;
+    }
+}
+
+.timeLaps-container{
+    //border: $boder-test;
+    width: 51%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: -16%;
+    
+}
+
+.timeLaps{
+    width: 100%;
+    height: 100%;
+    
+}
