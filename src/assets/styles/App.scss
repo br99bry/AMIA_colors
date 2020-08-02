@@ -1,8 +1,9 @@
-
+@import './vars.scss';
 body{
-    background-color: #fafafa;
+    margin: 0;
+    background-color: $color-fondoGeneral;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     height: 100vh;
 }

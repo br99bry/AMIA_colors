@@ -10,6 +10,7 @@ return (
         <button  className="button" type="button">{buttonText}    </button>
         <div className="button-decoration">
             {children}
+            
         </div>
     </div>
 );
