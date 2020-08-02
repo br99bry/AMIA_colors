@@ -4,6 +4,7 @@ import CardColashCar from './components/CardColashCar';
 import About from './components/About';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 import './assets/styles/App.scss';
 
 import vector from './assets/img/VectorCharola.jpg';
@@ -25,7 +26,7 @@ const App = () => (
         </About>
 
         <CardColashCar className="card-colash"/>
-       
+       <Footer />
 
     </div>
 );
