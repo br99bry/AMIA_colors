@@ -1,0 +1,42 @@
+@import './vars.scss';
+
+.comunication-item-conteiner{
+    //border: $boder-test;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+.comunication-item-img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    height: 25%;
+    //border: $boder-test;
+}
+
+.comunication-item-title{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //border: $boder-test;
+}
+
+.comunication-item-content{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //border: $boder-test;
+   
+}

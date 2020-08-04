@@ -1,7 +1,7 @@
 @import './vars.scss';
 
 .comunicacion-container{
-    border: $boder-test;
+    //border: $boder-test;
     width: 100vw;
     height: 50vh;
     margin-bottom: 50px;
@@ -22,6 +22,9 @@
 
 .comunicacion-item{
     //border: $boder-test;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .comunicacion-item:nth-of-type(1){
@@ -78,4 +81,51 @@
                 
             }
         }
+}
+
+.title-big1{
+    font-family: $font-button;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 39px;
+    text-align: center;
+    margin: 0;
+}
+
+.title-little1{
+    font-family: $font-button;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+
+}
+
+.title-little2{
+    font-family: $font-button;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    & strong{
+        font-size: 25px;
+    }
+}
+
+.title-little3{
+    font-family: $font-button;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    & small{
+        font-size: 14px;
+    }
 }
