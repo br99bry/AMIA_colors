@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import Galery from './components/Galery';
+import ComunicationCarrousel from './components/ComunicationCarrousel';
 
 import './assets/styles/App.scss';
 
@@ -28,9 +29,10 @@ const App = () => (
         </About>
 
         <CardColashCar className="card-colash"/>
-
+        <ComunicationCarrousel>
+        
+        </ComunicationCarrousel>
         <Galery />
-
        <Footer />
 
     </div>
