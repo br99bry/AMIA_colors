@@ -9,6 +9,7 @@ import Galery from './components/Galery';
 import ComunicationCarrousel from './components/ComunicationCarrousel';
 import HeroQueEsAMIA from './components/HeroQueEsAMIA';
 import DescriptionQueEsAMIA from './components/DescriptionQueEsAMIA';
+import FoundersAMIA from './components/FoundersAMIA';
 
 import './assets/styles/App.scss';
 
@@ -36,6 +37,7 @@ const App = () => (
         <Header />
         <HeroQueEsAMIA />
         <DescriptionQueEsAMIA />
+        <FoundersAMIA />
        <Footer />
 
     </div>
