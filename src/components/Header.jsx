@@ -10,18 +10,14 @@ const link3 = 'Comunicación';
 const link4 = 'Estadisticas';
 const link5 = 'Suscribete';
 
-const Header = () => {
-    const styles = {
-        backgroundImage: "url(" + rectangleHeader + ")",   
-    }
-    
-    return (   
+const Header = () => (   
         <header className="header-container">
             <div className="logo-container">
                 <img  src={logoHeader} alt="" className="logo"/>
             </div>
             <div  className="nav-container">
-                <div style={styles} className="nav">
+                <img src={rectangleHeader} alt=""/>
+                <div  className="nav">
                     <ul className="nav-list">
                         <li className="nav-opc">
                             <a className="nav-link" href="">{link1}</a>
@@ -46,6 +42,6 @@ const Header = () => {
             </div>
         </header>
     );
-}
+
 
 export default Header;
