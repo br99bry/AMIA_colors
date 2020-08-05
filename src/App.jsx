@@ -17,29 +17,35 @@ import vector from './assets/img/VectorCharola.jpg';
 import vectorFull from './assets/img/vectorFull.png';
 
 const App = () => (
-        // <Hero>
-        //     <Button buttonText="Descargar el documento" anchoBoton="345px">
-        //         <img src={vector}></img>
-        //     </ Button>
-        // </Hero>
-        // <About>
-        //     <Button buttonText="ver más" anchoBoton="203px">
-        //         <img src={vectorFull}></img>
-        //     </Button>
-        // </About>
-
-        // <CardColashCar className="card-colash"/>
-        // <ComunicationCarrousel>
         
-        // </ComunicationCarrousel>
-        // <Galery />
-    <div className="App">
-        <Header />
-        <HeroQueEsAMIA />
-        <DescriptionQueEsAMIA />
-        <FoundersAMIA />
-       <Footer />
+    // <div className="App">
+    //     <Header />
+    //     <HeroQueEsAMIA />
+    //     <DescriptionQueEsAMIA />
+    //     <FoundersAMIA />
+    //    <Footer />
 
+    // </div>
+
+    <div className="App">
+    <Header />
+    <Hero>
+            <Button buttonText="Descargar el documento" anchoBoton="345px">
+                <img src={vector}></img>
+            </ Button>
+        </Hero>
+        <About>
+            <Button buttonText="ver más" anchoBoton="203px">
+                <img src={vectorFull}></img>
+            </Button>
+        </About>
+
+        <CardColashCar className="card-colash"/>
+        <ComunicationCarrousel>
+        
+        </ComunicationCarrousel>
+        <Galery />
+    <Footer />
     </div>
 );
 
