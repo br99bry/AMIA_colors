@@ -1,0 +1,29 @@
+@import './vars.scss';
+
+.hero-container{
+    //border: $boder-test;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 3vh;
+
+    & .hero-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    & p{
+        position: absolute;
+        color: white;
+        margin-left: 8vw;
+        margin-bottom: 2vh;
+        font-family: $font-button;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 66px;
+        line-height: 77px
+    }
+}
