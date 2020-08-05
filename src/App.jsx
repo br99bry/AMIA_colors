@@ -14,7 +14,6 @@ import vector from './assets/img/VectorCharola.jpg';
 import vectorFull from './assets/img/vectorFull.png';
 
 const App = () => (
-    //<Button buttonText="Descargar el documento" anchoBoton="345px" />
     <div className="App">
         <Header />
         <Hero>

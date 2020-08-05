@@ -1,13 +1,14 @@
 @import './vars.scss';
 
 .hero-container{
-    border: $boder-test;
+    //border: $boder-test;
     width: 100vw;
     height: 75vh;
     position: relative;
     display: flex;
     //justify-content: center;
     align-items: center;
+    //overflow: hidden;
     
 }
 
@@ -35,12 +36,12 @@
 }
 
 .timeLaps-container{
-    border: $boder-test;
-    width: 58vw;
-    height: 114%;
+    //border: $boder-test;
+    width: 52vw;
+    height: 117%;
     position: absolute;
-    right: 0;
-    top: -10vh;
+    right: 0vw;
+    top: -12vh;
     
 }
 
