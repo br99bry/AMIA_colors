@@ -17,7 +17,7 @@ import vector from './assets/img/VectorCharola.jpg';
 import vectorFull from './assets/img/vectorFull.png';
 
 const App = () => (
-        
+     //Esta seccion carga la pagina QUE ES AMIA   
     // <div className="App">
     //     <Header />
     //     <HeroQueEsAMIA />
@@ -26,10 +26,10 @@ const App = () => (
     //    <Footer />
 
     // </div>
-
+    //Esta seccion carga el Home
     <div className="App">
     <Header />
-    <Hero>
+        <Hero>
             <Button buttonText="Descargar el documento" anchoBoton="345px">
                 <img src={vector}></img>
             </ Button>

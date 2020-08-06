@@ -4,7 +4,7 @@ import heroQueEsAMIA from '../assets/img/heroQueEsAMIA.png';
 
 const HeroQueEsAMIA = () => (
 
-    <div className="hero-container">
+    <div className="heroQueEsAMIA-container">
         <img src={heroQueEsAMIA} alt="" className="hero-img"/>
         <p>QUE ES AMIA</p>
     </div>
