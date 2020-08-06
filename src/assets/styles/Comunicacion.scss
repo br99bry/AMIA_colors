@@ -1,0 +1,56 @@
+@import './vars.scss';
+
+.comunicacionPage-container{
+    border: $boder-test;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+}
+
+.comunicacion-left{
+    height: 60vh;
+
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.comunicacion-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-top: 2vh;
+
+    & p:nth-of-type(1){
+        font-family: $font-button;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 39px;
+        margin: 0;
+    }
+
+    P:nth-of-type(2){
+        font-family: $font-button;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0;
+    }
+
+    & img:nth-of-type(1){
+        border: 1px solid #888888;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    & img:nth-of-type(2){
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+}

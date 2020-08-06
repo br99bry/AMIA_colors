@@ -11,6 +11,7 @@ import HeroQueEsAMIA from './components/HeroQueEsAMIA';
 import DescriptionQueEsAMIA from './components/DescriptionQueEsAMIA';
 import FoundersAMIA from './components/FoundersAMIA';
 import MesaDirectiva from './components/MesaDirectiva';
+import Comunicacion from './components/Comunicacion';
 
 import './assets/styles/App.scss';
 
@@ -49,9 +50,14 @@ const App = () => (
     // <Footer />
     // </div>
     //Esta seccion carga pagina de mesa directiva 
+    // <div className="App">
+    // <Header />
+    // <MesaDirectiva />
+    // <Footer />
+    // </div>
     <div className="App">
     <Header />
-    <MesaDirectiva />
+    <Comunicacion />
     <Footer />
     </div>
 );
