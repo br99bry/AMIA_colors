@@ -1,1 +1,17 @@
 @import './vars.scss';
+ 
+
+.comunicacion-videos-grid{
+    border: $boder-test;
+    width: 95%;
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: repeat(5,22vh);
+    grid-column-gap: 10%;
+    grid-row-gap: 5%;
+
+    & .comunicacion-videos-item{
+        border: $boder-test;
+    }
+}
