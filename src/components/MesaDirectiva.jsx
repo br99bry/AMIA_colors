@@ -7,6 +7,7 @@ const MesaDirectiva = () =>(
 
     <div className="mesaDirectiva-container">
         <section className="mesaDirectiva-left">
+            <p>Mesa Directiva</p>
             <img src={mesaDirectivaLeft} alt=""/>
         </section>
         <section className="mesaDirectiva-right">
