@@ -38,9 +38,9 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     position: absolute; 
     z-index: 3;
     top: 0;
@@ -49,10 +49,15 @@
 
 .nav-list{
     list-style: none;
-    display: flex;
+    
     
     & .nav-opc{
-        margin-left: 20px;
+        margin-left: 30px;
+        float: left;
+        position: relative;
+    }
+    & .nav-opc:nth-of-type(1){
+        margin: 0;
     }
 }
 
@@ -65,11 +70,36 @@
     font-size: 23px;
     line-height: 27px;
     
-    &:hover{
-        border-bottom: 3px solid white;
-    }
+    
+
 }
 
+.nav-opc:nth-of-type(1) ~ .nav-opc:nth-child(-n+4) ul{
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    color: $color-button;
+    text-decoration: none;
+    font-family: $font-nav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 45px;
+    display: none;
+    
+}
+
+.nav-opc:nth-of-type(1) ~ .nav-opc:nth-child(-n+4):hover > ul{
+    display: block;
+    width: 300px;
+
+    & li:hover{
+        border-bottom: 3px solid white;
+        cursor: pointer;
+        
+    }
+}
 .nav-opc:nth-of-type(6){
     margin-left: 85px;
 }

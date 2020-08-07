@@ -20,35 +20,35 @@ import vectorFull from './assets/img/vectorFull.png';
 
 const App = () => (
      //Esta seccion carga la pagina QUE ES AMIA   
-    // <div className="App">
-    //     <Header />
-    //     <HeroQueEsAMIA />
-    //     <DescriptionQueEsAMIA />
-    //     <FoundersAMIA />
-    //    <Footer />
-
-    // </div>
-    //Esta seccion carga el Home
     <div className="App">
-    <Header />
-        <Hero>
-            <Button buttonText="Descargar el documento" anchoBoton="345px">
-                <img src={vector}></img>
-            </ Button>
-        </Hero>
-        <About>
-            <Button buttonText="ver más" anchoBoton="203px">
-                <img src={vectorFull}></img>
-            </Button>
-        </About>
+        <Header />
+        <HeroQueEsAMIA />
+        <DescriptionQueEsAMIA />
+        <FoundersAMIA />
+       <Footer />
 
-        <CardColashCar className="card-colash"/>
-        <ComunicationCarrousel>
-        
-        </ComunicationCarrousel>
-        <Galery />
-    <Footer />
     </div>
+    //Esta seccion carga el Home
+    // <div className="App">
+    // <Header />
+    //     <Hero>
+    //         <Button buttonText="Descargar el documento" anchoBoton="345px">
+    //             <img src={vector}></img>
+    //         </ Button>
+    //     </Hero>
+    //     <About>
+    //         <Button buttonText="ver más" anchoBoton="203px">
+    //             <img src={vectorFull}></img>
+    //         </Button>
+    //     </About>
+
+    //     <CardColashCar className="card-colash"/>
+    //     <ComunicationCarrousel>
+        
+    //     </ComunicationCarrousel>
+    //     <Galery />
+    // <Footer />
+    // </div>
     //Esta seccion carga pagina de mesa directiva 
     // <div className="App">
     // <Header />
