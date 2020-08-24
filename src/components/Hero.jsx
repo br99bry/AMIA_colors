@@ -11,9 +11,9 @@ const Hero = ({children}) =>(
             {children}
         </div>
         
-        <div className="timeLaps-container">
+        {/* <div className="timeLaps-container">
             <img src={timeLapse} alt="" className="timeLaps"/>
-        </div>
+        </div> */}
     </section>
 );
 

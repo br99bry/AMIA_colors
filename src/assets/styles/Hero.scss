@@ -3,7 +3,7 @@
 .hero-container{
 
     width: 100vw;
-    height: 84vh;
+    height: auto;
     display: flex;
     align-items: center;
     position: relative;
@@ -12,6 +12,8 @@
 .hero-description{
     width: 636px;
     margin-left: 120px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     
     & h1{
         font-family: $font-button;
@@ -32,17 +34,18 @@
     }
 }
 
-.timeLaps-container{
+// .timeLaps-container{
 
-    width: 57.2%;
-    height: 100%;
-    position: absolute;
-    right: 0vw;
-    top: -11.2vh;
+//     width: 57.2%;
+//     height: auto;
+//     position: absolute;
+//     right: 0vw;
+//     top: -11.2vh;
     
-}
+// }
 
-.timeLaps{
-    width: 100%;
-    height: 100%;
-}
+// .timeLaps{
+//     width: 100%;
+//     height: 100%;
+// }
+

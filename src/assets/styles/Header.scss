@@ -1,50 +1,59 @@
 @import './vars.scss';
 
 .header-container{
+    border: 1px solid green;
     width: 100vw;
-    height: 11vh;
+    height: auto;
     display: grid;
     grid-template-columns: 45% 55%;
-    grid-template-rows: 100%;
+    grid-template-rows: auto;
     position: relative;
 }
 
 .logo-container{
-    height: 100%;
+    border: 1px solid black;
     display: flex;
     justify-content: start;
     align-items: center;
 
     & .logo{
         width: 325px;
-        height: 66px;
         margin-left: 120px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
 
 .nav-container{
+    border: 1px solid red;
     width: 100%;
-    height: 100%;
-    & img{
-        width: 100%;
-        height: 100%;
-        position: relative;
+    position: relative;
+    & .rectangle{
+        border: 1px solid blue;
+        width: 96.4%;
+        position: absolute;
         z-index: 2;
+        right: 0;
+        
+    }
+
+    & .timeLaps{
+        width: 100%;
+        position: absolute;
+        right: 0;
     }
 }
 
 .nav{
-    width: 50vw;
+    border: 2px solid purple;
+    width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute; 
     z-index: 3;
     top: 0;
-    left: 50%;
 }
 
 .nav-list{
@@ -67,7 +76,7 @@
     font-family: $font-nav;
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 1.2rem;
     line-height: 27px;
     
     
@@ -101,5 +110,6 @@
     }
 }
 .nav-opc:nth-of-type(6){
-    margin-left: 85px;
+    margin-left: 40px;
+    margin-right: 15px;
 }

@@ -3,6 +3,8 @@ import '../assets/styles/Header.scss';
 import logoHeader from '../assets/img/logoHeader.png';
 import rectangleHeader from '../assets/img/rectangleHeader.png';
 import searchIcon from '../assets/img/searchIcon.png';
+import timeLapse from '../assets/img/timeLapse.png';
+
 
 const link1 = 'Inicio';
 const link2 = 'AMIA';
@@ -25,7 +27,8 @@ const Header = () => (
                 <img  src={logoHeader} alt="" className="logo"/>
             </div>
             <div  className="nav-container">
-                <img src={rectangleHeader} alt=""/>
+                <img src={rectangleHeader} alt="" className="rectangle"/>
+                <img src={timeLapse} alt="" className="timeLaps"/>
                 <div  className="nav">
                     <ul className="nav-list">
                         <li className="nav-opc">
